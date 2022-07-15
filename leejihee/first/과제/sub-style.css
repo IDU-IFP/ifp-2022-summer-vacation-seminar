@@ -1,0 +1,27 @@
+article {
+    width: 500px;
+}
+
+h1 {
+    margin: 50px;
+}
+
+ul {
+    margin: 0 40px 70px;
+}
+
+li {
+    font-size: 15px;
+    text-align: left;
+}
+
+li:hover {
+    background: white;
+    color: black;
+}
+
+a {
+    background: rgb(222, 163, 193);
+    padding: 5px 7px;
+    border-radius: 10px;
+}
