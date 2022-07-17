@@ -1,0 +1,29 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 98, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bigBox {
+  background-color: rgb(226, 223, 200);
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.bigBox div {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(19, 61, 18);
+  border: 5px solid white;
+}
+#long {
+  width: 400px;
+  border: 5px dashed white;
+}
