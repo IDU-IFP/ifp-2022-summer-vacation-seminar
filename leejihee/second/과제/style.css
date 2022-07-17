@@ -27,7 +27,7 @@ body {
     margin: 15px 0;
 }
 
-.long {
+#long {
     border: 4px dashed white;
     width: 320px;
 }
