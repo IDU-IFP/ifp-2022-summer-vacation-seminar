@@ -53,15 +53,22 @@ article {
     align-items: center;
 }
 
+h1 {
+    width: 100px;
+}
+
 p {
     font-size: 10px;
     font-weight: 600;
 }
 
-h2 {
+button {
+    border: none;
+    background-color: rgba(0,0,0,0);
     font-size: 20px;
     font-weight: 400;
     margin-right: 5px;
+    cursor: pointer;
 }
 
 .financial-app {
