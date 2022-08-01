@@ -63,7 +63,7 @@ h1 {
 }
 
 p {
-    text-align: start;
+    /* text-align: start; */
     color: rgb(170, 170, 170);
 }
 
