@@ -43,6 +43,7 @@ article {
   justify-content: center;
   align-items: center;
   transform: rotateY(180deg);
+  cursor: pointer;
 }
 .front,
 .back {
