@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh; /*vh는 스크롤바 포함, %는 미포함*/
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(180, 180, 180);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.wrapper {
+    width: 320px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.color {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.color_bg { 
+    width: 130px;
+    height: 230px;
+    border: 5px solid white;
+}
+
+.color_info {
+    background-color: white;
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 4px 8px;
+    box-sizing: border-box;
+}
+
+/* .color {
+    width: 130px;
+    height: 230px;
+    border: 5px solid white;
+    margin: 10px;
+}
+
+.color_info {
+    margin-top: 20px;
+    padding: 10px 5px;
+    background-color: white;
+} */
+
+h3 {
+    margin-bottom: 10px;
+}
+
+.tomato .color_bg {
+    background-color: tomato;
+}
+
+.teal .color_bg{
+    background-color: teal;
+}
+
+.burlywood  .color_bg{
+    background-color: burlywood;
+}
+
+.thistle  .color_bg{
+    background-color: thistle;
+}
