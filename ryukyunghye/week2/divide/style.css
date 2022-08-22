@@ -3,13 +3,13 @@ body {
   height: 100vh;
   margin: 0;
   padding: 0;
-  background-color: rgb(255, 98, 0);
+  background-color: #f18048;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .bigBox {
-  background-color: rgb(226, 223, 200);
+  background-color: #e9d068;
   width: 500px;
   height: 500px;
   display: flex;
@@ -20,7 +20,7 @@ body {
 .box {
   width: 100px;
   height: 100px;
-  background-color: rgb(19, 61, 18);
+  background-color: #b6d168;
   border: 5px solid white;
 }
 #long {
