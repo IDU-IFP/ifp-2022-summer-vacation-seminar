@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2022 Summer Vacation Seminar - HTML/CSS</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="flex-div">
+      <span class="material-symbols-outlined icon"> integration_instructions </span>
+      <h1>gaori</h1>
+      <div class="span-div">
+        <a href="https://ryu-ddo.notion.site/2022-summer-vacation-HTML-CSS-seminar-e59ed2189cd64d48bad90acd9aaf0850">
+          <span class="material-symbols-outlined icon"> description </span>
+        </a>
+        <a href="https://ryu-ddo.notion.site/6b8799f68f8d4c50b32eb1c2fcca2c6d">
+          <span class="material-symbols-outlined icon"> contacts </span>
+        </a>
+      </div>
+    </header>
+    <!-- sidebar start -->
+    <nav class="sidebar flex-div">
+      <ul class="ul-left">
+        <a href="#"><li>Information</li></a>
+        <a href="#"><li>Character Card</li></a>
+        <a href="#"><li>Cards</li></a>
+        <a href="#"><li>Halloween</li></a>
+        <a href="#"><li>Sign Up</li></a>
+      </ul>
+      <ul class="ul-right">
+        <a href="#"><li>Gradient</li></a>
+        <a href="#"><li>Transition</li></a>
+        <a href="#"><li>Transform</li></a>
+        <a href="#"><li>SpaceSuit</li></a>
+        <a href="#"><li>VidTube</li></a>
+      </ul>
+    </nav>
+    <!-- main start -->
+    <main>
+      <div class="change-img"></div>
+      <!-- 3container, 4list -->
+      <div class="container flex-div">
+        <div class="img-list">
+          <img src="./images/list1.png" class="list" />
+          <div class="flex-div">
+            <img src="./images/icon-ako.jpeg" class="img-icon" />
+            <div class="list-info">
+              <p class="bold">Information To My Favorite Thing Page</p>
+              <p>2022.0717</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- this -->
+    </main>
+    <!-- footer start -->
+    <footer></footer>
+    <script>
+      const imgArr = new Array();
+      for (let i = 0; i < 12; i++) {
+        imgArr[i] = `list${i}`;
+      }
+      function showImage() {
+        const imgNum = Math.round(Math.random() * 11);
+        const objImg = document.getElementsByClassName("change-img");
+        objImg.src = imgArr[imgNum];
+      }
+      // js랑 html img태그랑 연결 하는거 모르겠음
+    </script>
+  </body>
+</html>
