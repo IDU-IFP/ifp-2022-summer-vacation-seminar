@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Signika", sans-serif;
+  color: #5a5a5a;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+/* header start */
+.flex-div {
+  display: flex;
+  align-content: center;
+}
+header {
+  width: calc(100% - 340px);
+  height: 50px;
+  justify-content: space-between;
+  position: fixed;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.83);
+}
+.material-symbols-outlined.icon {
+  font-size: 35px;
+  font-weight: 500;
+  color: black;
+}
+h1 {
+  font-family: "DynaPuff", cursive;
+  color: black;
+}
+/* sidebar start */
+.sidebar {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.ul-left,
+.ul-right {
+  width: 170px;
+  margin: 0 15px;
+  position: fixed;
+}
+.ul-left {
+  left: 0;
+}
+.ul-right {
+  text-align: end;
+  right: 0;
+}
+li {
+  list-style: none;
+  font-size: 20px;
+  margin-top: 20px;
+}
+li:hover {
+  color: #789bce;
+}
+/* main start */
+main {
+  width: calc(100% - 340px);
+  height: fit-content;
+  padding-left: 170px;
+  padding-right: 170px;
+  padding-top: 50px;
+}
+#change-img {
+  width: 100%;
+  height: 500px;
+  background: center/contain no-repeat black;
+}
+.img-list {
+  width: 33%;
+  padding-top: 10px;
+  padding-right: 0.5%;
+}
+.list {
+  width: 100%;
+}
+.img-icon {
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  margin: 3px 3px;
+}
+.title {
+  font-weight: 600;
+  font-size: 17px;
+  color: black;
+}
+.date {
+  color: #5a5a5a;
+  margin-top: 3px;
+}
+/* footer start */
+footer {
+  width: calc(100vw - 340px);
+  margin: 40px auto 0;
+  justify-content: space-between;
+  align-items: center;
+}
+footer > div > p:nth-of-type(2) {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.footer-left .title {
+  font-family: "DynaPuff", cursive;
+  font-size: 20px;
+  margin-left: 5px;
+}
+.footer-middle,
+.footer-right,
+.footer-left {
+  margin-left: 30px;
+  width: 33%;
+}
+.footer-middle,
+.footer-right {
+  align-items: center;
+}

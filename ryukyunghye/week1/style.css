@@ -1,15 +1,15 @@
 body {
-  background-color: #384b60;
+  background-color: #55648c;
 }
 article {
   width: 300px;
   height: 500px;
-  border: 5px double #384b60;
+  border: 5px double #55648c;
   border-radius: 10px;
   margin: 150px auto;
   background-color: #bedafa;
   text-align: center;
-  color: #384b60;
+  color: #55648c;
   font-size: 20px;
 }
 div {
@@ -41,6 +41,6 @@ li {
   margin-bottom: 3px;
 }
 li:hover {
-  background-color: #384b60;
+  background-color: #55648c;
   color: #bedafa;
 }
